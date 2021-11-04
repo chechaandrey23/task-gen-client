@@ -1,0 +1,74 @@
+.max-width-column-1 {
+	width: 5%
+}
+
+.max-width-column-2 {
+	width: 15%
+}
+
+.max-width-column-3 {
+	width: 20%
+}
+
+.max-width-column-4 {
+	width: 45%
+}
+
+.max-width-column-5 {
+	width: 15%
+}
+
+.cell {
+	border-bottom: 1px solid silver;
+}
+
+.hcell + .hcell {
+	border-left: 1px solid silver;
+}
+
+.table {
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+
+.form-header {
+	border: 1px solid silver;
+	border-radius: 5px;
+	position: relative;
+}
+
+.h-loading {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 1;
+	border-radius: 5px;
+	opacity: 0.9;
+	align-items: stretch;
+	display: flex;
+	justify-content: center;
+}
+
+label {
+	margin-bottom: .3rem
+}
+
+.form-cell-1 {
+	width: 25%;
+}
+
+.form-cell-2 {
+	width: 35%;
+}
+
+.form-cell-3 {
+	width: 40%
+}
+
+.scroll-content {
+	overflow: hide;
+	height: calc(100vh - 64px);
+}
